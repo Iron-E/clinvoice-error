@@ -2,5 +2,6 @@
 //! types.
 
 #![macro_use]
+#![warn(missing_docs)]
 
 mod alias_result;
