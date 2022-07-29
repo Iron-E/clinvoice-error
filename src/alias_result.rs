@@ -31,7 +31,7 @@ macro_rules! AliasResult {
 	};
 
 	($error:ident) => {
-		/// An alias of `std::result::Result<T, _>`.
-		pub type Result<T> = std::result::Result<T, $error>;
+		/// An alias of [`::core::result::Result<T, _>`].
+		pub type Result<T> = ::core::result::Result<T, $error>;
 	};
 }
